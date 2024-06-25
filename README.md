@@ -53,6 +53,20 @@ pip install djangorestframework-simplejwt
 pip install django-cors-headers
 pip install mysqlclient
 ```
+Update backend/settings.py with your MySQL credentials
+```shell
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'demo',  # Replace with your database name
+        'USER': 'root',  # Replace with your MySQL user
+        'PASSWORD': 'your_strong_password',  # Replace with your MySQL password
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
+
 Apply database migrations
 ```shell
 python manage.py makemigrations
