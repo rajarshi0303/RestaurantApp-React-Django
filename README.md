@@ -22,12 +22,12 @@ RestaurantApp is a full-stack web application for managing restaurant operations
 * MySQl
 
 ### Steps
-Clone the Repository
+#### Clone the Repository
 ```shell
 git clone https://github.com/rajarshi0303/RestaurantApp-React-Django.git
 cd RestaurantApp-React-Django
 ```
-Set up the Frontend (ReactJs)
+#### Set up the Frontend (ReactJs)
 ```shell
 cd Restruant_Frontend
 npm install
@@ -37,9 +37,9 @@ Start the React development server:
 npm run dev
 ```
 
-Set up the Backend (Django)
+#### Set up the Backend (Django)
 ```shell
-cd backend
+cd Restruant
 ```
 Activate virtual environment 
 ```shell
