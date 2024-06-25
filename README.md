@@ -14,6 +14,29 @@ RestaurantApp is a full-stack web application for managing restaurant operations
 * Database: MySQL
 * APIs: REST API with Django REST Framework
 
+## Installation Guide
+
+### Requirements
+* Node.js
+* Python
+* MySQl
+
+### Steps
+Clone the Repository
+```shell
+git clone https://github.com/rajarshi0303/RestaurantApp-React-Django.git
+cd RestaurantApp-React-Django
+```
+Set up the Frontend (ReactJs)
+```shell
+cd Restruant_Frontend
+npm install
+```
+Start the React development server:
+```shell
+npm run dev
+```
+
 ## Usage
 * Access the frontend application at http://localhost:3000
 * Access the Django development server at http://127.0.0.1:8000/ in your web browser. This will display the restaurant application's frontend.
