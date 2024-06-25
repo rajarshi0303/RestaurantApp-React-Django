@@ -1,12 +1,13 @@
-# Fullstack RestaurantApp
+# 🍽️ Fullstack RestaurantApp
 RestaurantApp is a full-stack web application for managing restaurant operations. It offers a comprehensive suite of features for both customers and restaurant staff, including features like online ordering, table booking, event booking, and a restaurant dashboard for viewing orders. It is built using React for the frontend and Django for the backend, with MySQL as the database.
 
 ## ✨ Features
-* Online Ordering: Customers can conveniently browse the menu and place orders online.
-* Restaurant Dashboard: Restaurant staff can view and manage incoming orders and track order status.
-* Event Booking: Customers can book tables for special occasions or events through the app.
-* Table Reservation: Customers can reserve tables in advance for a smooth dining experience.
-* Admin Panel: Provides restaurant management with comprehensive control over user accounts, orders, menus, events, and table reservations.
+
+* 🛒 Online Ordering: Customers can conveniently browse the menu and place orders online.
+* 📊 Restaurant Dashboard: Restaurant staff can view and manage incoming orders and track order status.
+* 🎉 Event Booking: Customers can book tables for special occasions or events through the app.
+* 🪑 Table Reservation: Customers can reserve tables in advance for a smooth dining experience.
+* 👨‍💼 Admin Panel: Provides restaurant management with comprehensive control over user accounts, orders, menus, events, and table reservations.
 
 ## 🛠️ Technologies Used
 * Frontend: HTML5, TailwindCSS, React.js, Framer-motion(animation) 
@@ -38,11 +39,9 @@ npm run dev
 ```
 
 #### Set up the Backend (Django)
-```shell
-cd Restruant
-```
 Activate virtual environment 
 ```shell
+cd Restruant
 myworld\Scripts\activate.bat
 ```
 Install Dependencies
@@ -89,7 +88,6 @@ python manage.py runserver
 
 ## Additional Notes
 * Remember to replace placeholders with your actual database credentials in backend/settings.py.
-* Configure email settings in backend/settings.py if you wish to send order confirmation emails or other notifications.
 * Consider using a production-grade web server (e.g., Nginx, Gunicorn) for deployment in a real-world environment.
 
 ## Contributing
