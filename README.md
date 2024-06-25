@@ -55,6 +55,7 @@ pip install mysqlclient
 ```
 Apply database migrations
 ```shell
+python manage.py makemigrations
 python manage.py migrate
 ```
 Create a superuser account for administrative access
