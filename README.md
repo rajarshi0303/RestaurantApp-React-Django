@@ -37,6 +37,20 @@ Start the React development server:
 npm run dev
 ```
 
+Set up the Backend (Django)
+```shell
+cd backend
+```
+Install Dependencies
+```shell
+pip install django
+pip install djangorestframework
+pip install djangorestframework-simplejwt
+pip install django-cors-headers
+pip install mysqlclient
+```
+
+
 ## Usage
 * Access the frontend application at http://localhost:3000
 * Access the Django development server at http://127.0.0.1:8000/ in your web browser. This will display the restaurant application's frontend.
