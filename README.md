@@ -41,6 +41,10 @@ Set up the Backend (Django)
 ```shell
 cd backend
 ```
+Activate virtual environment 
+```shell
+myworld\Scripts\activate.bat
+```
 Install Dependencies
 ```shell
 pip install django
@@ -49,7 +53,18 @@ pip install djangorestframework-simplejwt
 pip install django-cors-headers
 pip install mysqlclient
 ```
-
+Apply database migrations
+```shell
+python manage.py migrate
+```
+Create a superuser account for administrative access
+```shell
+python manage.py createsuperuser
+```
+Run the Django development server
+```shell
+python manage.py runserver
+```
 
 ## Usage
 * Access the frontend application at http://localhost:3000
